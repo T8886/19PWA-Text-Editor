@@ -15,7 +15,7 @@ const initdb = async () =>
   });
 
 // TODO: Add logic to a method that accepts some content and adds it to the database
-export const putDb = async (content) => {console.log('put implemented in DB');
+export const putDb = async (content) => { //console.log('put implemented in DB');
 
 // connection to the database and version that will be used.
 const contactDb = await openDB('jate', 1);
@@ -33,7 +33,7 @@ console.log('data saved in database', result);
 };
 
 // TODO: Add logic for a method that gets all the content from the database
-export const getDb = async () => {console.log('get implemented in DB');
+export const getDb = async () => { //console.log('get implemented in DB');
     // connection to the database and version that will be used.
     const contactDb = await openDB('jate', 1);
   
