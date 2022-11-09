@@ -3,7 +3,6 @@
 ## Table of Contents:
 * [Description](https://github.com/T8886/19PWA-Text-Editor#description)
 * [Heroku Link](https://github.com/T8886/19PWA-Text-Editor#heroku-link)
-* [Build with](https://github.com/T8886/19PWA-Text-Editor#build-with)
 * [Installation](https://github.com/T8886/19PWA-Text-Editor#installation)
 * [License](https://github.com/T8886/19PWA-Text-Editor#license)
 
