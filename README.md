@@ -24,7 +24,7 @@ WHEN I register a service worker THEN I should have static assets pre cached upo
 WHEN I deploy to Heroku THEN I should have proper build scripts for a webpack application.
 
 ## Heroku Link
-
+https://desolate-basin-11078.herokuapp.com/
 
 ## Installation:
 * In terminal, from the root directory enter `npm i`,
