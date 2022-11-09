@@ -18,10 +18,10 @@ const initdb = async () =>
 export const putDb = async (content) => { //console.log('put implemented in DB');
 
 // connection to the database and version that will be used.
-const contactDb = await openDB('jate', 1);
+const startDb = await openDB('jate', 1);
   
 // new transaction, database and data privileges readwrite specified.
-const tx = contactDb.transaction('jate', 'readwrite');
+const tx = startDb.transaction('jate', 'readwrite');
 
 // Opens desired object store.
 const store = tx.objectStore('jate');
@@ -35,10 +35,10 @@ console.log('data saved in database', result);
 // TODO: Add logic for a method that gets all the content from the database
 export const getDb = async () => { //console.log('get implemented in DB');
     // connection to the database and version that will be used.
-    const contactDb = await openDB('jate', 1);
+    const startDb = await openDB('jate', 1);
   
     // new transaction, database and data privileges readonly specified.
-    const tx = contactDb.transaction('jate', 'readonly');
+    const tx = startDb.transaction('jate', 'readonly');
   
     // Opens desired object store.
     const store = tx.objectStore('jate');
